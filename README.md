@@ -12,22 +12,22 @@ Objectives
  
 Machine Learning Models
 
-Linear Regression
+Linear Regression - 
 A statistical approach to model the relationship between a dependent variable and one or more independent variables by minimizing errors between observed and predicted values.
 
-Random Forest Regressor
+Random Forest Regressor - 
 An ensemble learning technique that creates multiple decision trees using random subsets of data and features, then averages their predictions for enhanced accuracy and reduced overfitting.
 
-Support Vector Regressor (SVR)
+Support Vector Regressor (SVR) - 
 A method that uses support vector machines to identify a hyperplane in high-dimensional space, minimizing prediction errors and effectively handling non-linear relationships.
 
-Gated Recurrent Unit (GRU)
+Gated Recurrent Unit (GRU) - 
 A type of Recurrent Neural Network (RNN) that addresses the vanishing gradient problem using gating mechanisms to retain important information over long sequences.
 
-Long-Short Term Memory (LSTM)
+Long-Short Term Memory (LSTM) - 
 An advanced RNN architecture designed to learn long-term dependencies in sequential data using memory cells with forget, input, and output gates.
 
-Evaluation Metrics
+Evaluation Metrics - 
 To compare model performance, the following statistical metrics are used:
 
 Mean Squared Error (MSE): Measures the average squared differences between predicted and actual values.
