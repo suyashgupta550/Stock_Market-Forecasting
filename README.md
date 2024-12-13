@@ -35,3 +35,16 @@ Mean Absolute Error (MAE): Quantifies the average magnitude of prediction errors
 R-squared (Coefficient of Determination): Indicates the proportion of variance in the target variable explained by the model.
 
 
+Key Findings
+
+The Gated Recurrent Unit (GRU) model demonstrated the highest predictive accuracy among all the models tested. It achieved a high R-squared value of 0.97 (BEML dataset) and 0.98 (BHEL dataset), indicating a strong correlation between predicted and actual stock prices. Additionally, it recorded significantly low error metrics, with Mean Squared Error (MSE) values of 3.6 (BEML) and 1.1 (BHEL), and Mean Absolute Error (MAE) values of 6.70 (BEML) and 1.3 (BHEL). These results highlight GRU’s capability to effectively model sequential data and accurately predict stock price fluctuations, making it a highly reliable choice for stock market forecasting.
+
+In contrast, the Support Vector Regressor (SVR) model exhibited the poorest performance. It achieved a relatively low R-squared value of 0.78 (BEML) and 0.85 (BHEL), reflecting weaker predictive accuracy. Furthermore, it recorded significantly higher error metrics, with MSE values of 391.78 (BEML) and 23.78 (BHEL), and MAE values of 18.88 (BEML) and 3.84 (BHEL). These findings suggest that SVR struggles to handle the complexity of stock market data, making it less suitable for forecasting purposes compared to other models in the study.
+
+
+
+GRU showed the best performance with high R-squared (0.97–0.98) and low MSE/MAE values, making it highly effective for stock price forecasting.
+SVR had the poorest accuracy, with low R-squared (0.78–0.85) and high MSE/MAE values, rendering it less suitable for stock market predictions.
+
+
+
