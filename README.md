@@ -42,7 +42,6 @@ The Gated Recurrent Unit (GRU) model demonstrated the highest predictive accurac
 In contrast, the Support Vector Regressor (SVR) model exhibited the poorest performance. It achieved a relatively low R-squared value of 0.78 (BEML) and 0.85 (BHEL), reflecting weaker predictive accuracy. Furthermore, it recorded significantly higher error metrics, with MSE values of 391.78 (BEML) and 23.78 (BHEL), and MAE values of 18.88 (BEML) and 3.84 (BHEL). These findings suggest that SVR struggles to handle the complexity of stock market data, making it less suitable for forecasting purposes compared to other models in the study.
 
 
-
 GRU showed the best performance with high R-squared (0.97–0.98) and low MSE/MAE values, making it highly effective for stock price forecasting.
 SVR had the poorest accuracy, with low R-squared (0.78–0.85) and high MSE/MAE values, rendering it less suitable for stock market predictions.
 
