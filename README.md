@@ -45,5 +45,19 @@ In contrast, the Support Vector Regressor (SVR) model exhibited the poorest perf
 GRU showed the best performance with high R-squared (0.97–0.98) and low MSE/MAE values, making it highly effective for stock price forecasting.
 SVR had the poorest accuracy, with low R-squared (0.78–0.85) and high MSE/MAE values, rendering it less suitable for stock market predictions.
 
+Key Findings - 
+
+GRU showed the best performance with high R-squared (0.97–0.98) and low MSE/MAE values, making it highly effective for stock price forecasting.
+
+SVR had the poorest accuracy, with low R-squared (0.78–0.85) and high MSE/MAE values, rendering it less suitable for stock market predictions.
+
+Limitations
+
+The study focuses on data from the Indian stock market, limiting its applicability to other global markets.
+
+Key factors like geopolitical events, macroeconomic indicators, and sector-specific developments were not included.
+
+Disruptive events like the COVID-19 pandemic, which caused extreme market volatility, may not be fully captured in the historical data.
+
 
 
